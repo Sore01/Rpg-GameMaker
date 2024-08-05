@@ -1,0 +1,19 @@
+//Inputs e velocidade
+
+//Pegando os inputs do usuario
+up		 = keyboard_check(vk_up);
+down	 = keyboard_check(vk_down);
+right	 = keyboard_check(vk_right);
+left	 = keyboard_check(vk_left);
+
+
+
+
+
+//aplicando os inpunts à velocidade
+//O resultado da conta vai ser 0, -1 ou 1
+velv	= (down - up) * vel;
+
+//Fazendo a velocidade horizontal
+velh	= (right - left) * vel;
+
