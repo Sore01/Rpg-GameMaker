@@ -1,0 +1,20 @@
+// Variaveis de movimentaçao
+// Você pode escrever seu código neste editor
+
+//Iniciar variaveis
+
+//controles estao sendo iniciados sem valor
+up = noone;
+down = noone;
+left = noone;
+right = noone;
+
+
+//Variavel de movimento
+//Iniciando parado
+
+velh = 0;
+velv = 0;
+
+//Velocidade do jogador
+vel = 4;
